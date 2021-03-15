@@ -18,3 +18,5 @@
 - `SHIFT-F` - go to the bottom + reaattach
 
 6. `reset` terminal
+
+7. https://www.shellcheck.net/
