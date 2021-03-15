@@ -29,4 +29,6 @@ Shortcuts
 - `reset` terminal
 - `history`
 
+[Enable](https://www.youtube.com/watch?v=GqoJQft5R2E) VI mode for shell: `set -o vi` to .bash_profile
+
 https://www.shellcheck.net/
