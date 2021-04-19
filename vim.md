@@ -17,6 +17,7 @@ Movement
 | `g*` / `g#`   | find a *substring* forward/backward |
 |               |    |
 | `]]` / `[[`   | jump to { / } in the first column (top => left [, bottom => right ]) |
+| ``` `] ```    | jump to the last character of the previously changed or yanked text |
 
 
 ```
