@@ -155,6 +155,10 @@ FOLDS
 zfi}			create fold (zf) in {...}
 zo / zc / za	open / close / switch fold
 
+ASCII/UNICODE VALUE OF THE CURRENT CHARACTER
+ga
+:ascii
+
 MULTIPLE CURSORS REPLACEMENT
 1. go to word to change
 2. *``	find all other occurrences and return back to that word
