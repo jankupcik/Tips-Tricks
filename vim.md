@@ -145,8 +145,6 @@ X\zs...\zeY	search for X...Y but highlight ... only
 			/\v"\zs[^"]=\ze" => find "abc", highlight abc only
 q/		open a separate window for search + <CR> to search
 :%s//.../g	substitute last searched pattern
-* g* # g#	find the whole word/partially after, find the whole word/partially before
-
 
 MULTIFILE SEARCH
 :vim[grep] /pattern/g WHERE
@@ -184,7 +182,7 @@ select lines
 
 Links
 =====
-:help usr_toc.txt
+[:help usr_toc.txt](https://vimhelp.org/usr_toc.txt.html)
 
 Regular expressions
 -------------------
