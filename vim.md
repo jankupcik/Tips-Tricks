@@ -56,7 +56,8 @@ C-k a:		ä, ¼ ... (:h digraphs, :h digraph-table)
 
 
 VISUAL MODE:
-o		go to other end of highlighted text
+o		go to the other end of the highlighted text
+O		move to the other corner in the same line
 gv		select previously selected block
 
 COMMAND MODE:
