@@ -35,6 +35,7 @@ x / X		delete the character at / before the cursor position
 J / gJ		join lines with / without a space
 q:		show list of last commands (it's not :q)
 q/		show list of last searches
+>i{		indent inside current set of curly braces
 
 INSERT MODE:
 gp / gP		paste and stay at the end
