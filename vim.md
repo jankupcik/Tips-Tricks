@@ -61,6 +61,10 @@ o		go to the other end of the highlighted text
 O		move to the other corner in the same line
 gv		select previously selected block
 
+REPLACE/VREPLACE MODE:
+R		REPLACE mode - <tab> is a single char
+gR		VREPLACE mode - <tab> is edited as a multiple spaces
+
 COMMAND MODE:
 C-d		show autocomplete values
 @:		repeat last command
