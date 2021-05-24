@@ -42,6 +42,8 @@ gp / gP		paste and stay at the end
 :put		paste always as a block
 C-r a		paste the register 'a'
 C-r = 10*10	calculates 10*10
+C-t		>> for the current line
+C-d		<< for the current line
 
 C-h		= backspace
 C-w		delete one word
