@@ -188,6 +188,13 @@ select lines
 :'<.'>normal @a
 ```
 
+SPELL CHECK
+:set spell spelllang=en
+]s	to next error
+z=	when on a misspelled word, get some suggestions
+zg	mark a misspelled word as correct
+zw	mark a good word as misspelled
+
 Links
 =====
 [:help usr_toc.txt](https://vimhelp.org/usr_toc.txt.html)
