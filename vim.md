@@ -186,7 +186,6 @@ TABS => SPACES
 RUN A MACRO FOR SELECTED LINES
 select lines
 :'<.'>normal @a
-```
 
 SPELL CHECK
 :set spell spelllang=en
@@ -194,6 +193,8 @@ SPELL CHECK
 z=	when on a misspelled word, get some suggestions
 zg	mark a misspelled word as correct
 zw	mark a good word as misspelled
+
+```
 
 Links
 =====
