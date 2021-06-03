@@ -38,6 +38,7 @@ q/		show list of last searches
 >i{		indent inside current set of curly braces
 
 INSERT MODE:
+gi		insert at last insert point
 gp / gP		paste and stay at the end
 :put		paste always as a block
 C-r a		paste the register 'a'
