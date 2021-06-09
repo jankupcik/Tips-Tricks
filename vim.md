@@ -157,8 +157,8 @@ q/		open a separate window for search + <CR> to search
 
 MULTIFILE SEARCH
 :vim[grep] /pattern/g WHERE
-WHERE: *, **, ## (files in args)
-:cnext, :cnfile, :copen
+WHERE: *, **, ## (files in args), **/*.js (recursive)
+:cnext, :cnfile, :copen, :clist
 
 FOLDS
 zfi}		create fold (zf) in {...}
