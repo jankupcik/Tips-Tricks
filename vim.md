@@ -37,6 +37,8 @@ q:		show list of last commands (it's not :q)
 q/		show list of last searches
 >i{		indent inside current set of curly braces
 
+gq		format lines, e.g. apply 'textwidth' option
+
 INSERT MODE:
 gi		insert at last insert point
 gp / gP		paste and stay at the end
