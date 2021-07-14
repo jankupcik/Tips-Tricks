@@ -200,7 +200,9 @@ zw	mark a good word as misspelled
 TERMINAL
 C-w w	leave the terminal window
 C-\ C-n	to normal mode
-C-w :q!	leave it (not neovim?)
+C-\ N	to normal mode
+i / a	activate terminal again
+C-w :bd! close the terminal
 
 tnoremap <Esc> <C-\><C-n>:q!<CR>
 
