@@ -197,6 +197,13 @@ z=	when on a misspelled word, get some suggestions
 zg	mark a misspelled word as correct
 zw	mark a good word as misspelled
 
+TERMINAL
+C-w w	leave the terminal window
+C-\ C-n	to normal mode
+C-w :q!	leave it (not neovim?)
+
+tnoremap <Esc> <C-\><C-n>:q!<CR>
+
 ```
 
 Links
