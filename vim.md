@@ -205,8 +205,12 @@ i / a	activate terminal again
 C-w :bd! close the terminal
 
 tnoremap <Esc> <C-\><C-n>:q!<CR>
-
 ```
+
+MULTIPLE FILES
+| ``args c:\path\**\*.java`` | open all java files recursively |
+| ``argdo normal @w``        | execute macro `w` on each opened file |
+
 
 Links
 =====
