@@ -30,7 +30,7 @@ Monitoring
     sudo nmon
 ```
 
-- I/O monitor
+- I/O monitor (`apt install iotop-c`)
 ```  
     sudo iotop
 ```
