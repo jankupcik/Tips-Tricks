@@ -49,3 +49,30 @@
   ```
   cargo doc --open
   ```
+
+enums
+=====
+```rust
+enum State {
+    Stop,
+    Go
+}
+```
+```rust
+fn ...(state: State) {
+    match state {
+        State::Stop => ...,
+        State::Go => ...,
+   }
+}
+```
+-or-
+```rust
+fn ...(state: State) {
+    use self::State::*;
+    match state {
+        Stop => ...,
+        Go => ...,
+   }
+}
+```
