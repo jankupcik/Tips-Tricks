@@ -113,3 +113,36 @@ Built-In Traits
   ```rust
   for element in implementingIterator {}
   ```
+
+Dispatch
+--------
+### Static
+
+```rust
+foo<T>(val: T) -> T {}
+```
+=> monomorphization (compiler generates unique functions) =>
+```rust
+foo_i32(i32) -> i32 {}
+foo_u8(u8) -> u8 {}
+```
+
+### Dynamic
+- decisions made at runtime about which function to execute
+- uses v-tables, requires an extra pointer lookup, making it slower  
+
+```rust
+fn show_all(v: Vec<&dyn Display>) {
+    for item in v {
+        println!("{}", item);
+    }
+}
+
+fn main() {
+    let v = vec![
+		    &12 as &Display,
+		    &"Hi!" as &Display
+    ];
+    show_all(v);
+}
+```
