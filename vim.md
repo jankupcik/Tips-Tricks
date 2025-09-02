@@ -152,6 +152,7 @@ SEARCH
 \w		word characters => a-z, A-Z, 0-9, _
 \W		everything except word characters
 <word>		< / > boundaries of \w+ => find words only (see * cmd)
+/.\{-}X  every character until X
 X\zs...\zeY	search for X...Y but highlight ... only
 			/\v"\zs[^"]=\ze" => find "abc", highlight abc only
 q/		open a separate window for search + <CR> to search
