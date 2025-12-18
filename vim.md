@@ -166,6 +166,11 @@ WHERE: *, **, ## (files in args), **/*.js (recursive)
 FOLDS
 zfi}		create fold (zf) in {...}
 zo / zc / za	open / close / switch fold
+zM / zR         close / open all folds
+
+custom fold areas
+:set foldmethod=marker
+:set foldmarker=--@@@\ START,--@@@\ END    (there must be escape \ for ' ', '{' etc.)
 
 ASCII/UNICODE VALUE OF THE CURRENT CHARACTER
 ga
