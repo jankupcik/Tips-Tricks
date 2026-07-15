@@ -44,3 +44,8 @@ tmux
 - `tmux new -s myproject` - start a session
 - `CTRL+B D` - detach
 - `tmux attach -t myproject` - reconnect
+
+fzf
+===
+- `vim $(fzf)`
+- `kill $(ps -ef | fzf | awk '{print $2}')`
