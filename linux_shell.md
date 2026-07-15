@@ -22,6 +22,12 @@ Shortcuts
 
 - `sudo !!` - rerun last command with `sudo`
 
+- `!$` - take the last argument from the previous command
+  ```
+  mkdir myproject
+  cd !$
+  ```
+
 - use `less +F /var/log/syslog` instead of `tail -f`
   - `CTRL-C` - get out of follow mode
   - `SHIFT-F` - go to the bottom + reaattach
