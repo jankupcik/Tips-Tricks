@@ -45,6 +45,14 @@ tmux
 - `CTRL+B D` - detach
 - `tmux attach -t myproject` - reconnect
 
+- `tmux ls` - list all sessions
+- `tmux rename-session myproject` or `CTRL+B $` - rename the whole session
+- `tmux rename-window api-work` or `CTRL+B ,` - name only the current window
+
+- `CTRL+B %` - split vertically
+- `CTRL+B "` - split horizontally
+- `CTRL+B arrow` - switch between panes
+
 fzf
 ===
 - `vim $(fzf)`
